@@ -1,1 +1,1 @@
-read test finalö with cahnges
+There are some small programs for practice written on Java
