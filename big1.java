@@ -7,14 +7,14 @@ public class big1 {
         int inputNumber = scanner.nextInt();
 
         if (inputNumber <= 0) {
-            System.out.println("Программа завершена. Введенное число должно быть больше 0.");
+            System.out.println("The program has ended. The number entered must be greater than 0.");
             return;
         }
 
         for (int i = 1; true; i++) {
             int randomNumber = new Random().nextInt(inputNumber + 1);
             if (inputNumber == randomNumber) {
-                System.out.println("Попытка №" + i);
+                System.out.println("Attempt No. " + i);
                 break;
             }
         }
