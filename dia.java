@@ -16,6 +16,12 @@ public class dia {
         findDiablo();
 
         battle();
+
+        if (isAmigoWin()) {
+            System.out.println(winPhrase);
+        } else {
+            System.out.println(loosePhrase);
+        }
     }
 
     public static void findDiablo() {
@@ -58,6 +64,10 @@ public class dia {
                 diabloLostLife();
             }
         }
+    }
+
+    public static boolean isAmigoWin() {
+        return diabloLives == 0;
     }
 
     public static int getRandomNumber(int range) {
