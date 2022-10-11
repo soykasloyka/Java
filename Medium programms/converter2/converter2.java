@@ -1,9 +1,9 @@
 public class converter2 {
     public static void main(String[] args) {
         int decimalNumber = Integer.MAX_VALUE;
-        System.out.println("Десятичное число " + decimalNumber + " равно двоичному числу " + toBinary(decimalNumber));
+        System.out.println("Decimal number " + decimalNumber + " equal to binary number " + toBinary(decimalNumber));
         String binaryNumber = "1111111111111111111111111111111";
-        System.out.println("Двоичное число " + binaryNumber + " равно десятичному числу " + toDecimal(binaryNumber));
+        System.out.println("binary number " + binaryNumber + " equal to decimal " + toDecimal(binaryNumber));
     }
 
     public static String toBinary(int decimalNumber) {

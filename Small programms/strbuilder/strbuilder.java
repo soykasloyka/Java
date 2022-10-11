@@ -1,8 +1,8 @@
 public class strbuilder {
     public static void main(String[] args) {
-        String string = "Учиться, учиться и еще раз учиться! ";
+        String string = "Study, study and study again! ";
 
-        System.out.println(addTo(string, new String[]{"Под ", "лежачий ", "камень ", "вода ", "не ", "течет"}));
+        System.out.println(addTo(string, new String[]{"A ", "rolling ", "stone ", "gathers ", "no ", "moss"}));
         System.out.println(replace(string, ", ", 16, 27));
     }
 

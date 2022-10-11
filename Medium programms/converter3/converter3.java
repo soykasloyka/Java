@@ -3,9 +3,9 @@ public class converter3 {
 
     public static void main(String[] args) {
         int decimalNumber = 1256;
-        System.out.println("Десятичное число " + decimalNumber + " равно шестнадцатеричному числу " + toHex(decimalNumber));
+        System.out.println("Decimal number " + decimalNumber + " equal to hexadecimal number " + toHex(decimalNumber));
         String hexNumber = "4e8";
-        System.out.println("Шестнадцатеричное число " + hexNumber + " равно десятичному числу " + toDecimal(hexNumber));
+        System.out.println("Hexadecimal number " + hexNumber + " equal to decimal " + toDecimal(hexNumber));
     }
 
     public static String toHex(int decimalNumber) {

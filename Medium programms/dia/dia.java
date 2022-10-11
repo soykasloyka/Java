@@ -1,13 +1,13 @@
 
 import java.util.Scanner;
 public class dia {
-    public static String getFirstPositionPhrase = "Помоги Амиго определить, где спрятался Диабло? Введи номер позиции (1, 2, 3 или 4):";
-    public static String getPositionPhrase = "Диабло не обнаружен. Давай попробуем снова. Введи номер позиции (1, 2, 3 или 4):";
-    public static String findDiabloPhrase = "Амиго обнаружил Диабло.";
-    public static String diabloDefendPhrase = "Амиго атакует. Диабло отбил атаку Амиго и нанес ответный удар.";
-    public static String amigoAttackPhrase = "Удар Амиго достиг цели. Диабло потерял 3 жизни.";
-    public static String winPhrase = "Амиго одержал победу над Диабло и выбил из его головы загадочный кристалл.";
-    public static String loosePhrase = "Диабло победил Амиго.";
+    public static String getFirstPositionPhrase = "Help Amigo to find where Diablo is hiding? Enter position number (1, 2, 3 or 4):";
+    public static String getPositionPhrase = "The Diablo not found. Let's try again. Enter position number (1, 2, 3 or 4):";
+    public static String findDiabloPhrase = "Amigo found the Diablo.";
+    public static String diabloDefendPhrase = "Amigo attacks. The Diablo repelled Amigo's attack and retaliated.";
+    public static String amigoAttackPhrase = "Amigo's strike hit the target. The Diablo lost 3 life.";
+    public static String winPhrase = "Amigo defeated the Diablo and knocked out a mysterious crystal from his head.";
+    public static String loosePhrase = "Diablo defeated Amigo.";
     public static int diabloPosition;
     public static int amigoLives = 9;
     public static int diabloLives = 9;
