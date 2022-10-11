@@ -1,4 +1,4 @@
-public class Coordinate {
+public class coordinate {
     private int x;
     private int y;
 

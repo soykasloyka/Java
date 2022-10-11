@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class str {
     public static String[] strings;
 
@@ -8,7 +10,7 @@ public class str {
         for (int i = 0; i < 6; i++) {
             strings[i] = scanner.nextLine();
         }
-
+        scanner.close();
         for (int i = 0; i < strings.length; i++) {
             String currentString = strings[i];
             for (int j = i + 1; j < strings.length; j++) {
@@ -24,5 +26,6 @@ public class str {
         for (int i = 0; i < strings.length; i++) {
             System.out.print(strings[i] + ", ");
         }
+        
     }
 }

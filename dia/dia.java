@@ -1,3 +1,5 @@
+
+import java.util.Scanner;
 public class dia {
     public static String getFirstPositionPhrase = "Помоги Амиго определить, где спрятался Диабло? Введи номер позиции (1, 2, 3 или 4):";
     public static String getPositionPhrase = "Диабло не обнаружен. Давай попробуем снова. Введи номер позиции (1, 2, 3 или 4):";
@@ -26,17 +28,19 @@ public class dia {
 
     public static void findDiablo() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println(getFirstPositionPhrase);
-        while (true) {
-            int position = scanner.nextInt();
-            if (position == diabloPosition) {
-                System.out.println(findDiabloPhrase);
-                break;
-            } else {
-                System.out.println(getPositionPhrase);
+            System.out.println(getFirstPositionPhrase);
+            while (true) {
+                int position = scanner.nextInt();
+                if (position == diabloPosition) {
+                    System.out.println(findDiabloPhrase);
+                    break;
+                } else {
+                    System.out.println(getPositionPhrase);
+                }
+                scanner.close();
             }
         }
-    }
+    
 
     public static void amigoLostLife() {
         amigoLives--;

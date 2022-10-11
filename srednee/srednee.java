@@ -12,6 +12,7 @@ public class srednee {
             }
         }
         System.out.println(sum / 5);
+        scanner.close();
     }
 }
 

@@ -1,10 +1,10 @@
 import java.util.Calendar;
 
-public class Solution {
+public class year {
 
     private int currentYear;
 
-    public Solution() {
+    public year() {
         this.currentYear = Calendar.getInstance().get(Calendar.YEAR);
     }
 
@@ -13,7 +13,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        year solution = new year();
         System.out.println(solution.getCurrentYear());
     }
 }

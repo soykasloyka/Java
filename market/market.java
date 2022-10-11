@@ -1,7 +1,5 @@
 //They sent you to the store for shopping and said that you need to buy a loaf, and if there are eggs, then take ten pieces.
-public class Market {
-    private static boolean hasEggs = true;
-
+public class market {
     public static void main(String[] args) {
         boolean hasEggs = false;
         makePurchases(hasEggs);

@@ -1,4 +1,4 @@
-public class Window {
+public class window {
     private int height = 2;
     private int width = 3;
 

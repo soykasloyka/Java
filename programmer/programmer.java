@@ -1,4 +1,4 @@
-public class Programmer {
+public class programmer {
     private int salary = 1000;
 
     public int getSalary() {

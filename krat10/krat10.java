@@ -9,5 +9,6 @@ public class krat10 {
             i = bombInterface.nextInt();
             System.out.println(i);
         } while (i % 10 != 0);
+        bombInterface.close();
     }
 }
