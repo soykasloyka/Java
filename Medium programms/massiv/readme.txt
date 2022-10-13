@@ -1,0 +1,1 @@
+Here are collected small programs for working with arrays
